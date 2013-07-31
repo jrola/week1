@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+	<style>
+		h1{
+			color: blue;
+		}
+    
+		form{
+			background: #C0C0C0;
+			margin: auto;
+			position: relative;
+			width: 400px;
+			height: 500px;
+			font-family: Tahoma;
+			font-size: 14px;
+			font-style: italic;
+			line-height: 30px;
+			font-weight: bold;
+			color: blue;
+			border-radius: 10px;
+			padding: 10px;
+			border: 1px solid #000000;
+		}
+    
+		input{
+			width: 350px;
+			display: block;
+			border: 1px solid #000000;
+			height: 25px;
+		}
+    
+		textarea{
+			border: 1px solid black;
+		}
+    
+	</style>
+
+<body>
+
+	<form class="form">
+        <h1>Contact Form</h1>
+        First name: <input type="text" name="firstname"><br>
+        Last name: <input type="text" name="lastname"><br>
+        Email Adress: <input type="text" name="emailaddress"><br>
+        Message: <textarea cols="41" rows="4" name="message"></textarea>
+        
+        <button type="submit" class="button">Submit</button>
+        
+	</form>
+
+
+<script>
+	/*
+	Jack Rola
+	Week 1
+	*/
+
+	var stringtype = "mystring",
+		bool = true,
+		bools = "true",
+		fname = "firstname",
+		lname = "lastname",
+		number = 20,
+		number1 = "20";
+		
+		for (var i = 0; i <= 10; i++ ){		/* loop prints to console from 0 to 10*/
+			console.log(i);
+			}
+		
+		for (var i = 10; i >= 0; i-- ){		/* loop prints to console from 10 to 0*/
+			console.log(i);
+			}
+
+/*-----------------------------------------------------------------------------------------*/	
+		
+		if(fname == lname){					/* compares if fname and lname is the same*/
+			console.log("is the same");
+			}	else{
+					console.log("is not the same");
+					}
+		
+		if(fname === lname){				/*compares if they are the same type and value */
+			console.log("is the same");
+			}	else{
+					console.log("is not the same");
+					}
+	
+/*---------------------------------------------------------------------------------------------*/
+	
+		if(number == number1){				/* compares if values are the same*/
+			console.log("true");
+			}	else{
+					console.log("false");
+					}
+		
+		if(number === number1){			/*compares if value and type is the same. */
+			console.log("true");
+			}	else{
+					console.log("false");
+					}
+	
+/*----------------------------------------------------------------------------------------------*/
+	
+		if(bool == bools){			/* compares true, then "true" */
+			console.log("true");
+			}	else{
+					console.log("false");
+					}
+		
+		if(bool === bools){			/*compares if value and type is the same. */
+			console.log("true");
+			}	else{
+				console.log("false");
+					}
+	
+	/*
+	console.log (number == number1);
+	console.log	(number === number1);
+	*/
+
+	/*
+	console.log("before");
+	console.log(stringtype);
+	
+	stringtype = stringtype + " more string";
+    
+    console.log("after");
+    console.log(stringtype);
+    
+		
+	
+	console.log("after");
+	console.log(stringtype);
+	
+	stringtype = stringtype + " more string";
+    
+    console.log("before");
+    console.log(stringtype);
+	*/
+
+	
+</script>
+</body>
+</html>
+
